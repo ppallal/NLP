@@ -127,10 +127,43 @@ class FeatureFunctions(object):
 		else:
 			return 0
 
+	
 
+	def fprice_query__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relation != "price_feature"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Phone","Price"]))
+			return 1
+		else:
+			return 0
 
-		
+	def fprice_query__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relation != "price_feature"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Org","Price"]))
+			return 1
+		else:
+			return 0
+	
+	def fprice_query__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relation != "price_feature"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Price"]))
+			return 1
+		else:
+			return 0
 
+	def fprice_query__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relation != "price_feature"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted([""]))
+			return 1
+		else:
+			return 0
 
 	#------------------------------- Functions for Feature Query -------------------------------------------------
 	#------------------------------- Functions for Comparison ----------------------------------------------------
