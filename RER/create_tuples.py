@@ -21,10 +21,22 @@ def getData():
 				sents.append(tags[0].values()[0])
 			#print sents
 			if(not sents) : continue
-		
 			final.append(sents)
 			sents = []
 	return final
 #for i in final:
 #	print i
+# 		final.append(sents)
+# 		sents = []
+	
+# count = 0
+
+# # print final[0]
+# # exit()
+# for i in final:
+# 	if(str(i[1]) == "acknowledgement"):
+# 		print i[0]
+# 		count+=1
+
+# print count
 	
