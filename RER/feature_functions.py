@@ -163,7 +163,7 @@ class FeatureFunctions(object):
 		if(relations_tags != "price_query"):
 			return 0
 		tags = data[2]
-		if(sorted(tags) == sorted([""])):
+		if(sorted(tags) == sorted(["Family","Price"])):
 			return 1
 		else:
 			return 0
@@ -176,7 +176,16 @@ class FeatureFunctions(object):
 		#	print "retu"	 		
 			return 1
 	 	return 0	
-
+	
+	def fprice_query__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "price_query"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Org","Price","Phone"])):
+			return 1
+		else:
+			return 0
+	
 
 	#------------------------------- Functions for Feature Query -------------------------------------------------
     def ffeature_query__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
@@ -281,11 +290,96 @@ class FeatureFunctions(object):
 
 
 	#------------------------------- Functions for Interest Intent -----------------------------------------------
-	#------------------------------- Functions for Irrelevant ----------------------------------------------------
-	#------------------------------- Functions for Disagreement --------------------------------------------------
-	#------------------------------- Functions for Greeting ------------------------------------------------------
-	#------------------------------- Functions for Agreement -----------------------------------------------------
-	#------------------------------- Functions for Acknowledgement -----------------------------------------------
+	'''Phone 	:	9
+	Family-Version-Org 	:	6
+	Org-Phone 	:	6
+	Family-Org 	:	6
+	Family-Version-Other 	:	5
+	Version-Org 	:	5
+	'''
+	def finterest_intent__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Phone"])):
+			return 1
+		else:
+			return 0
+	
+	
+	def finterest_intent__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Family","Version","Org"])):
+			return 1
+		else:
+			return 0
+			
+	def finterest_intent__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Org","Phone"])):
+			return 1
+		else:
+			return 0
+			
+	def finterest_intent__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Family","Version"])):
+			return 1
+		else:
+			return 0
+			
+	def finterest_intent__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Family","Org"])):
+			return 1
+		else:
+			return 0
+			
+	def finterest_intent__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "interest_intent"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Version","Org"])):
+			return 1
+		else:
+			return 0
+			
+	def fprice_query__7(self, data,relations_tags):
+		sentence = data[0].split(" ")
+		tags = data[2]
+		relation = data[1]
+				
+		if(relations_tags != "price_query"):
+			return 0
+		for i in ['looking','looking','need','Show','like','would','interested','when','want']:
+			if(i in [k.lower() for k in sentence]):
+				return 1
+		else:
+			return 0
 
+	
+	
+	
+	#------------------------------- Functions for Irrelevant ----------------------------------------------------
+	
+	def firrelevant__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "irrelevant"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted(["Phone"]) or sorted(tags) == sorted(["OS","Version"]) or sorted(tags) == sorted(["Family","Version","Org"]) or sorted(tags) == sorted(["Family","Org"]) or sorted(tags) == sorted(["Phone","Org"]) or sorted(tags) == sorted(["OS"])):
+			return 1
+		else:
+			return 0
+	
+	
+	
 if __name__ == "__main__":
     pass
