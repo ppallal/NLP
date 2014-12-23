@@ -197,13 +197,29 @@ for i in datast[1200:1250]:
 
 correct = 0
 total = 0
+preC =0
+#new_tag_list = ["agreement","acknowledgement","price_query","feature_query","comparison","interest_intent","irrelevant"]
+new_tag_list= ['price_query', 'feature_query', 'comparison', 'interest_intent', 'irrelevant', 'disagreement', 'greeting', 'agreement', 'acknowledgement']	
+reCall = dict(zip(new_tag_list,[[0,0] for i in range(len(new_tag_list))]))
 
 for i in result:
 	if(i[0][1]==i[1] and i[1]!="irrelevant"): correct +=1
 	if(i[1]!="irrelevant"): total+=1
+	if(i[0][1]==i[1]) : preC +=1
+	reCall[i[0][1]][0] +=1
+	if(i[0][1]==i[1]): reCall[i[0][1]][1] +=1
 	print i[0][1],"\t:\t",i[1],"\t\t",i[0][2],i[0][0] 
 
 
-print correct ,"/",total
+#print correct ,"/",total
+print 
+
+print "Precision : " ,preC," / ",len(result)," = ",1.0*preC/len(result)
+print "reCall"
+for i in reCall:
+	if(reCall[i][0]!=0):
+		print i,"\t:\t",reCall[i][1],"/",reCall[i][0]," = ",1.0*reCall[i][1]/reCall[i][0]
+
+
 if __name__ == "__main__":
     pass

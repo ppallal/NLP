@@ -179,7 +179,107 @@ class FeatureFunctions(object):
 
 
 	#------------------------------- Functions for Feature Query -------------------------------------------------
+    def ffeature_query__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Feature","Phone"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Family","Feature","Model","Org"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["OS","Version"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Feature"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["OS","Phone"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query_6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Feature","Organisation","Phone"])):
+			return 1
+	 	return 0	
+
+    def ffeature_query__7(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Feature","Model"])):
+			return 1
+	 	return 0	
+
 	#------------------------------- Functions for Comparison ----------------------------------------------------
+    def fcomparison__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["OS","OS"])):
+			return 1
+	 	return 0	
+
+    def fcomparison__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Family","Family","Model","Model","Org","Org"])):
+			return 1
+	 	return 0	
+    def fcomparison__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["Family","Family","Version","Version","Org","Org"])):
+			return 1
+	 	return 0	
+
+
+    def fcomparison__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(sorted(tags) == sorted(["OS","OS"])):
+			return 1
+	 	return 0	
+
+
 	#------------------------------- Functions for Interest Intent -----------------------------------------------
 	#------------------------------- Functions for Irrelevant ----------------------------------------------------
 	#------------------------------- Functions for Disagreement --------------------------------------------------
