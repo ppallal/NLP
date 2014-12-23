@@ -178,20 +178,32 @@ tag_list = ["price_query","feature_query","comparison","interest_intent","irrele
 #(history_list, sents, expected, ) = build_history.build_history(data,tag_list)
 datast = create_tuples.getData()
 fun_obj = FeatureFunctions(tag_list)
-maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = None)
-maxent.train()
+
+pickle_file = r"all_data.p"
+#maxent = mymaxent.MyMaxEnt(history_list,func_obj,reg_lambda=0.001, pic_file = pickle_file);
+maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = pickle_file)
+TRAIN = int(raw_input("Enter 1 for Train, 0 to use pickeled file:  "))
+if TRAIN == 1:
+        maxent.train();
+
+
+
+#maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = None)
+#maxent.train()
 result=[]
 for i in datast[1200:1250]:
     result.append((i,maxent.classify(i)))
 
 
 correct = 0
+total = 0
 
 for i in result:
-	if(i[0][1]==i[1]): correct +=1
-	print i[0][1],"\t:\t",i[1],"\t\t",i[0][0] 
+	if(i[0][1]==i[1] and i[1]!="irrelevant"): correct +=1
+	if(i[1]!="irrelevant"): total+=1
+	print i[0][1],"\t:\t",i[1],"\t\t",i[0][2],i[0][0] 
 
 
-print correct ,"/",len(result)
+print correct ,"/",total
 if __name__ == "__main__":
     pass

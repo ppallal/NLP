@@ -107,7 +107,7 @@ class FeatureFunctions(object):
 		relation = data[1]
 
 		#print "feature Price 1 callled"
-		if(relation != "price_feature"):
+		if(relations_tags != "price_query"):
 			return 0
 		if("Price" in tags):
 			return 1
@@ -119,7 +119,7 @@ class FeatureFunctions(object):
 		tags = data[2]
 		relation = data[1]
 				
-		if(relation != "price_feature"):
+		if(relations_tags != "price_query"):
 			return 0
 		for i in ['how','much','affordable','less','than','discount']:
 			if(i in [k.lower() for k in sentence]):
@@ -129,41 +129,54 @@ class FeatureFunctions(object):
 
 	
 
-	def fprice_query__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
-		if(relation != "price_feature"):
+    def fprice_query__3(self,data,relations_tags):
+		# data = [sentence,relation,[tags]]
+		
+		if(relations_tags != "price_query"):
 			return 0
 		tags = data[2]
-		if(sorted(tags) == sorted(["Phone","Price"]))
+		#print tags
+		if(sorted(tags) == sorted(["Phone","Price"])):
+			#print "1 returned"
 			return 1
 		else:
 			return 0
 
-	def fprice_query__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
-		if(relation != "price_feature"):
+    def fprice_query__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "price_query"):
 			return 0
 		tags = data[2]
-		if(sorted(tags) == sorted(["Org","Price"]))
+		if(sorted(tags) == sorted(["Org","Price"])):
 			return 1
 		else:
 			return 0
 	
-	def fprice_query__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
-		if(relation != "price_feature"):
+    def fprice_query__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "price_query"):
 			return 0
 		tags = data[2]
-		if(sorted(tags) == sorted(["Price"]))
+		if(sorted(tags) == sorted(["Price"])):
 			return 1
 		else:
 			return 0
+    def fprice_query__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+		if(relations_tags != "price_query"):
+			return 0
+		tags = data[2]
+		if(sorted(tags) == sorted([""])):
+			return 1
+		else:
+			return 0
+    def fprice_query__7(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "price_query"):
+			return 0		
+		p = re.compile('\d+[kK]')
+	 	if (p.search(data[0])):
+		#	print "retu"	 		
+			return 1
+	 	return 0	
 
-	def fprice_query__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
-		if(relation != "price_feature"):
-			return 0
-		tags = data[2]
-		if(sorted(tags) == sorted([""]))
-			return 1
-		else:
-			return 0
 
 	#------------------------------- Functions for Feature Query -------------------------------------------------
 	#------------------------------- Functions for Comparison ----------------------------------------------------
