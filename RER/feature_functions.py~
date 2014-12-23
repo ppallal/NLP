@@ -173,7 +173,7 @@ class FeatureFunctions(object):
 			return 0		
 		p = re.compile('\d+[kK]')
 	 	if (p.search(data[0])):
-		#	print "retu"	 		
+			print "retu"	 		
 			return 1
 	 	return 0	
 
