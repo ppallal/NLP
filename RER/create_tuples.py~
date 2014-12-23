@@ -1,6 +1,6 @@
 import json
 def getData():
-	fpAllData = open("alldata.json","r")
+	fpAllData = open("all_data.json","r")
 
 	data_list = json.loads(fpAllData.read())['root']
 	final = []

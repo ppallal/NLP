@@ -54,11 +54,11 @@ class FeatureFunctions(object):
         self.query_list = query_list
         for k, v in FeatureFunctions.__dict__.items():
             if hasattr(v, "__call__"):
-		#print "tag : ",v                
+		print "tag : ",v                
 		if k[0] == 'f':
                     self.flist[k] = v # .append(v)
                     tag = k[1:].split("__")[0]
-                 #   print "tag : ",tag
+                    print "tag : ",tag
                     val = self.fdict.get(tag, [])
                     val.append(v)
                     self.fdict[tag] = val
