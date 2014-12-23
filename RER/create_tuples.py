@@ -1,6 +1,6 @@
 import json
 
-fpAllData = open("all_data.json","r")
+fpAllData = open("alldata.json","r")
 
 data_list = json.loads(fpAllData.read())['root']
 final = []
@@ -25,6 +25,14 @@ for data in data_list:
 		final.append(sents)
 		sents = []
 	
+count = 0
+
+# print final[0]
+# exit()
 for i in final:
-	print i
+	if(str(i[1]) == "acknowledgement"):
+		print i[0]
+		count+=1
+
+print count
 	
