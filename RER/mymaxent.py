@@ -9,7 +9,7 @@ import pickle
 import numpy
 import math
 #import build_history
-from feature_functions import *
+from rer_feature_functions import *
 from random import randint
 import create_tuples
 
@@ -179,7 +179,7 @@ tag_list = ["price_query","feature_query","comparison","interest_intent","irrele
 datast = create_tuples.getData()
 fun_obj = FeatureFunctions(tag_list)
 
-pickle_file = r"all_data.p"
+pickle_file = r"rer.p"
 #maxent = mymaxent.MyMaxEnt(history_list,func_obj,reg_lambda=0.001, pic_file = pickle_file);
 maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = pickle_file)
 TRAIN = int(raw_input("Enter 1 for Train, 0 to use pickeled file:  "))
