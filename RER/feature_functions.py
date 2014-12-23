@@ -177,7 +177,7 @@ class FeatureFunctions(object):
 			return 1
 	 	return 0	
 	
-	def fprice_query__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def fprice_query__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "price_query"):
 			return 0
 		tags = data[2]
@@ -196,6 +196,24 @@ class FeatureFunctions(object):
 		if(sorted(tags) == sorted(["Feature","Phone"])):
 			return 1
 	 	return 0	
+    def ffeature_query__10(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if("Feature" in tags):
+			return 1
+	 	return 0	
+
+    def ffeature_query__11(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if("Feature" in tags and "Phone" in tags):
+			return 1
+	 	return 0	
+
 
     def ffeature_query__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 			
@@ -214,6 +232,26 @@ class FeatureFunctions(object):
 		if(sorted(tags) == sorted(["OS","Version"])):
 			return 1
 	 	return 0	
+
+
+    def ffeature_query__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if("OS" in tags):
+			return 1
+	 	return 0	
+
+    def ffeature_query__9(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "feature_query"):
+			return 0		
+	 	tags = data[2]
+		if("OS" in tags and "Version" in tags):
+			return 1
+	 	return 0	
+
 
     def ffeature_query__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 			
@@ -277,6 +315,25 @@ class FeatureFunctions(object):
 		if(sorted(tags) == sorted(["Family","Family","Version","Version","Org","Org"])):
 			return 1
 	 	return 0	
+    def fcomparison__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(tags.count("Family")>=2):
+			return 1
+	 	return 0	
+
+    def fcomparison__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(tags.count("Family")>=2 and tags.count("Org")>=2):
+			return 1
+	 	return 0	
+
+
 
 
     def fcomparison__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
@@ -288,16 +345,37 @@ class FeatureFunctions(object):
 			return 1
 	 	return 0	
 
+    def fcomparison__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(tags.count("OS")>=2):
+			return 1
+	 	return 0	
+
+    def fcomparison__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(tags.count("Phone")>=2):
+			return 1
+	 	return 0	
+
+    def fcomparison__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+			
+		if(relations_tags != "comparison"):
+			return 0		
+	 	tags = data[2]
+		if(tags.count("OS")>=2 and tags.count("Phone")>=2):
+			return 1
+	 	return 0	
+
+
 
 	#------------------------------- Functions for Interest Intent -----------------------------------------------
-	'''Phone 	:	9
-	Family-Version-Org 	:	6
-	Org-Phone 	:	6
-	Family-Org 	:	6
-	Family-Version-Other 	:	5
-	Version-Org 	:	5
-	'''
-	def finterest_intent__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__1(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -307,7 +385,7 @@ class FeatureFunctions(object):
 			return 0
 	
 	
-	def finterest_intent__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__2(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -316,7 +394,7 @@ class FeatureFunctions(object):
 		else:
 			return 0
 			
-	def finterest_intent__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__3(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -325,7 +403,7 @@ class FeatureFunctions(object):
 		else:
 			return 0
 			
-	def finterest_intent__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__4(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -334,7 +412,7 @@ class FeatureFunctions(object):
 		else:
 			return 0
 			
-	def finterest_intent__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__5(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -343,7 +421,7 @@ class FeatureFunctions(object):
 		else:
 			return 0
 			
-	def finterest_intent__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def finterest_intent__6(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "interest_intent"):
 			return 0
 		tags = data[2]
@@ -352,12 +430,13 @@ class FeatureFunctions(object):
 		else:
 			return 0
 			
-	def fprice_query__7(self, data,relations_tags):
+    def finterest_intent__7(self, data,relations_tags):
+		#print("interest called")
 		sentence = data[0].split(" ")
 		tags = data[2]
 		relation = data[1]
 				
-		if(relations_tags != "price_query"):
+		if(relations_tags != "interest_intent"):
 			return 0
 		for i in ['looking','looking','need','Show','like','would','interested','when','want']:
 			if(i in [k.lower() for k in sentence]):
@@ -370,7 +449,7 @@ class FeatureFunctions(object):
 	
 	#------------------------------- Functions for Irrelevant ----------------------------------------------------
 	
-	def firrelevant__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
+    def firrelevant__8(self,data,relations_tags):     # data = [sentence,relation,[tags]]
 		if(relations_tags != "irrelevant"):
 			return 0
 		tags = data[2]

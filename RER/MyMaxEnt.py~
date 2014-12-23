@@ -191,7 +191,7 @@ if TRAIN == 1:
 #maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = None)
 #maxent.train()
 result=[]
-for i in datast[1200:1250]:
+for i in datast[1200:1350]:
     result.append((i,maxent.classify(i)))
 
 
@@ -211,7 +211,9 @@ for i in result:
 	print i[0][1],"\t:\t",i[1],"\t\t",i[0][2],i[0][0] 
 
 
-print correct ,"/",total
+#print correct ,"/",total
+print 
+
 print "Precision : " ,preC," / ",len(result)," = ",1.0*preC/len(result)
 print "reCall"
 for i in reCall:

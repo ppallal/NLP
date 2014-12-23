@@ -1,0 +1,160 @@
+Enter 1 for Train, 0 to use pickeled file:  irrelevant 	:	irrelevant 		[u'Org', u'Family'] Samsung galaxy is lagging behind in the market
+irrelevant 	:	irrelevant 		[u'Org', u'OS', u'Place'] Nokia symbian was once popular in India
+irrelevant 	:	irrelevant 		[u'Place', u'Phone', u'Org', u'OS', u'Phone'] Finland based Nokia may launch Android phone soon
+irrelevant 	:	irrelevant 		[u'App', u'Family', u'Model'] Assist in Moto g is cool
+irrelevant 	:	irrelevant 		[u'Org', u'Family'] Microsoft gets away with Nokia brand in latest Lumia 
+irrelevant 	:	price_query 		[u'Family', u'Model', u'Price'] Lumia 520 is best in its price range
+irrelevant 	:	irrelevant 		[u'Version', u'Feature'] Lolypop doesnt have silent feature
+irrelevant 	:	irrelevant 		[u'Family', u'OS', u'Version'] Nexus 6 coming with Android lolypop
+price_query 	:	price_query 		[u'Family', u'Model', u'Place', u'Price'] The cost of iPhone 5s in India is Rs. 43499
+feature_query 	:	irrelevant 		[u'Feature', u'Family', u'Model'] The screen size of Nexus 6 is approximately 6 inches and it is yet to be released in the US.
+interest_intent 	:	irrelevant 		[u'App', u'Org', u'Phone'] Is AppLock available on Windows phones ?
+price_query 	:	irrelevant 		[u'Org', u'Family', u'Phone'] What are some of the Samsung Galaxy phones under 20k ?
+irrelevant 	:	irrelevant 		[u'Other', u'App'] Did you update Whatsapp ?
+agreement 	:	irrelevant 		[u'Family', u'Model', u'Feature', u'Size'] Nexus 4 has a screen size of 4.7" 
+feature_query 	:	irrelevant 		[u'App', u'Phone'] Do you have Viber installed on your phone ?
+interest_intent 	:	price_query 		[u'Phone', u'Size', u'Feature', u'Version'] Can you suggest some good phones which have more than 5" screen size and run on Kitkat or higher?
+agreement 	:	irrelevant 		[u'Feature', u'Family', u'Model', u'Size'] Display size of iPhone 6 is 4.7"
+price_query 	:	price_query 		[u'Family', u'Price'] Can you suggest some good iPhones within 45k?
+acknowledgement 	:	price_query 		[u'Other', u'Org', u'Model', u'Price'] The Price of Samsung Galaxy S5 in India is 35k
+irrelevant 	:	irrelevant 		[u'OS', u'Date'] Android Lollipop was released on November 3rd,2014
+feature_query 	:	irrelevant 		[u'App', u'App', u'Family', u'Phone'] Have you installed Facebook and messenger on your galaxy phone ?
+price_query 	:	price_query 		[u'Family', u'Phone', u'Other'] How much did your Nexus phone cost ?
+irrelevant 	:	price_query 		[u'Org', u'Model', u'Price'] Xiaomi Mi4 India launch only in December, price around 15k 
+irrelevant 	:	irrelevant 		[u'App', u'Other'] SmashHit is a very addictive game
+price_query 	:	price_query 		[u'Phone', u'Price'] What are some of the good smartphones available for less than 10k ?
+irrelevant 	:	price_query 		[u'Family', u'Model', u'Place', u'Price'] Micromax Bolt A064 is one of the cheapest android phones available in India which costs only 2.7k  
+price_query 	:	price_query 		[u'Org', u'Family', u'Model', u'Other'] How much does HTC Desire C cost ?
+interest_intent 	:	irrelevant 		[u'Family', u'Model', u'Place'] When will iPhone 6s plus be released in India?
+feature_query 	:	feature_query 		[u'Phone', u'Feature'] Does the phone have accelerometer and Gyrometer?
+irrelevant 	:	irrelevant 		[u'Phone', u'Size', u'Feature'] Phones with 5 inch display or more are becoming common nowadays.
+irrelevant 	:	price_query 		[u'Family', u'Model', u'Price'] The nexus 5 price has reduced to 15,000 rupees as of this month.
+irrelevant 	:	irrelevant 		[u'Family', u'Model'] last week, my father purchased a Moto G2
+irrelevant 	:	irrelevant 		[u'Org', u'Family', u'Place', u'Org'] apple iPhone is most commonly purchased in the US where you can get it AT&T connected
+interest_intent 	:	irrelevant 		[u'Org', u'Family', u'Version', u'Place'] where can a Samsung Galaxy phone running Jellybean be bought in Bangalore?
+price_query 	:	price_query 		[u'Phone', u'Price'] where can I buy a 4.2 inch phone for 30,000 or lesser?
+irrelevant 	:	price_query 		[u'Family', u'Model', u'Date'] the galaxy grand has become less popular since August
+acknowledgement 	:	irrelevant 		[u'Org', u'Family', u'Model'] the Google nexus 6 is to have a 6 inch display
+irrelevant 	:	irrelevant 		[u'OS', u'App'] IOS users have to pay for the full version of fruit ninja
+price_query 	:	price_query 		[u'Price', u'Family', u'Model'] what's the best selling price online for Moto G  2?
+price_query 	:	price_query 		[u'OS', u'Version', u'Phone', u'Price', u'Place'] Windows 8.2 phones for under 15,000 in India?
+irrelevant 	:	irrelevant 		[u'OS', u'Phone', u'Place'] android phones are gaining popularity in developing nations
+feature_query 	:	price_query 		[u'OS', u'Phone', u'Feature'] android phones for less than 20,000 rupees which support NFC?
+interest_intent 	:	irrelevant 		[u'Phone', u'Size', u'Feature'] which is the best phone with a 5 inch display?
+irrelevant 	:	irrelevant 		[u'OS'] what's the fuss about IOS?
+comparison 	:	irrelevant 		[u'Family', u'Phone'] why are nexus phones preferred?
+irrelevant 	:	irrelevant 		[u'Org', u'OS', u'Version'] cyanogen mod to release android L soon
+irrelevant 	:	feature_query 		[u'Org', u'Family', u'Model', u'Feature'] Samsung Galaxy Grand claimed to have hardware issues.
+irrelevant 	:	irrelevant 		[u'OS', u'Version', u'Date', u'Family', u'Version'] android L to release on July 26 for nexus 5 users
+interest_intent 	:	irrelevant 		[u'Org', u'Phone', u'App'] I want to buy a Samsung phone having Facebook
+feature_query 	:	feature_query 		[u'Org', u'Family', u'Model', u'Feature'] Does Nokia Lumia 730 have a front camera
+irrelevant 	:	irrelevant 		[] When does Nokia Lumia 535 release in India
+price_query 	:	price_query 		[u'Phone', u'OS', u'Version', u'Price'] I want to buy a smartphone running Android KitKat and priced below 10000
+irrelevant 	:	irrelevant 		[] Will Android 5.0 Lollipop be available in India by January 2015
+price_query 	:	price_query 		[u'Org', u'Phone', u'Price'] Which is the best Micromax phone under 15000
+comparison 	:	irrelevant 		[u'Org', u'Phone', u'Org', u'Phone', u'Feature'] are lenovo smartphones comparable to samsung smartphones in terms of battery
+irrelevant 	:	irrelevant 		[] Are Samsung Galaxy Note phones pre - installed with FourSquare
+irrelevant 	:	irrelevant 		[] Does ASUS make smartphones
+price_query 	:	price_query 		[u'Family', u'Price'] Is there an iPhone which costs less than 40000?
+feature_query 	:	feature_query 		[u'Org', u'Family', u'Model', u'Feature'] Does Micromax Canvas Doodle 3 have a front camera?
+irrelevant 	:	irrelevant 		[] Will iPhone 6 be available in India before March 2015?
+price_query 	:	price_query 		[u'Org', u'Phone', u'Price', u'Size', u'Feature'] I want to buy a Lenovo phone which costs less than 20000 and has a 5 inch screen. 
+irrelevant 	:	irrelevant 		[] Is the Windows 8.1 update available for Nokia Lumia phones in India ?
+feature_query 	:	irrelevant 		[u'Org', u'Phone', u'Feature'] I want to buy a Samsung smartphone with a front camera
+feature_query 	:	feature_query 		[u'Org', u'Family', u'Model', u'Feature'] Does the Samsung Galaxy Note support 3G ?
+irrelevant 	:	irrelevant 		[] The Nokia Lumia 1320 has excellent battery life
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Phone', u'Size', u'Feature', u'Size'] Lenovo S850 smartphone with 5.00-inch 720x1280 display powered by 1.3GHz processor
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Size', u'Feature'] Lenovo VibeX2 5inches, 1080 x 1920 px display
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Feature', u'Feature'] Lenovo A536 5 MP Camera with flash
+agreement 	:	irrelevant 		[u'Org', u'Model', u'OS', u'Version'] Lenovo A536 supports Android, v4.4.2
+price_query 	:	price_query 		[u'Org', u'Model', u'Price', u'Price'] Lenovo A536 for Rs. 7,219 
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Size', u'Feature'] Lenovo A850 5.5 inches, 540 x 960 px display
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Size', u'Feature'] Lenovo S660 4.7 inches, 540 x 960 px display
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] Lenovo S660 available at Rs. 9,829
+agreement 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Feature'] Lenovo A369i with 512 MB RAM
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] Samsung Galaxy S Duos 2 S7582 at Rs. 9,999
+agreement 	:	irrelevant 		[u'Org', u'Model', u'OS', u'Version', u'OS'] Samsung Galaxy supports Android v4.2 OS
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] Karbonn Smart A11 Star at Rs. 4,499
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] Samsung Galaxy Star Advance G350E at  Rs. 6,400
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] samsung Galaxy S Duos 3 at RS.7,490/-
+price_query 	:	price_query 		[u'Org', u'Model', u'Price'] Samsung Galaxy Alpha at  Rs. 39,000
+agreement 	:	irrelevant 		[u'Org', u'Model', u'OS', u'Version']  Nokia X Dual SIM Yellow supports windowsPhone 8.0 
+feature_query 	:	irrelevant 		[u'Family', u'Org', u'Model', u'Size', u'Feature', u'Feature'] Samsung Galaxy S Duos S7562 with 5 MP Camera with flash
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Size', u'Feature'] Samsung Galaxy Grand Prime with 1 GB RAM
+agreement 	:	irrelevant 		[u'Org', u'Model', u'OS', u'Version'] Samsung Galaxy S Duos S7562 with Android, v4.0
+comparison 	:	price_query 		[u'Price', u'Org', u'Model', u'Place'] what will be the price of Google Nexus 5 in India?
+comparison 	:	price_query 		[u'Price', u'Org', u'Model', u'Place'] what will be the price of Google Nexus 5 in India?
+comparison 	:	irrelevant 		[u'Org', u'Phone', u'OS', u'Version'] will LG phone support Android 4.5 ?
+irrelevant 	:	irrelevant 		[u'App', u'OS', u'Version'] The Mac App Store is a digital distribution platform for OS X applications.
+feature_query 	:	irrelevant 		[u'App', u'Phone', u'Version'] Can I play Hill Climb Racing in my phone which is running on Froyo?
+irrelevant 	:	irrelevant 		[u'App'] WhatsApp Messenger is one of the most popular and most downloaded apps.
+irrelevant 	:	irrelevant 		[u'Org', u'Family', u'Model', u'App'] Google Nexus 5 which cost me Rs 28000 came pre-installed with loads of apps like Gmail, Temple Run 2, Dropbox, YouTube etc.
+irrelevant 	:	irrelevant 		[u'Org', u'Family'] Motorola Moto E is brilliant!
+interest_intent 	:	interest_intent 		[u'Org', u'Family', u'Version'] When will Google Nexus 6 smartphone be released in India?
+feature_query 	:	irrelevant 		[u'Org', u'Model', u'Version'] Can LG P350 be updated to run Jelly Bean?
+irrelevant 	:	irrelevant 		[u'Org', u'Org', u'Date'] Facebook acquired WhatsApp in February this year.
+irrelevant 	:	irrelevant 		[u'Org', u'Family', u'Model', u'Date', u'Date'] Google Nexus 6 is speculated to be released sometime in November or December.
+irrelevant 	:	irrelevant 		[u'OS', u'Version', u'Org'] iOS 7 looks great. Congrats to the Google design team!
+irrelevant 	:	irrelevant 		[u'OS', u'Version', u'Date'] Android Lollipop was released this November.
+irrelevant 	:	irrelevant 		[u'OS', u'Org'] Android is currently developed by Google.
+irrelevant 	:	irrelevant 		[u'Org', u'Family', u'Model', u'Phone'] Xiomi Redmi 1S is the best value-for-money smartphone you can buy!
+irrelevant 	:	irrelevant 		[u'OS', u'Version', u'Family', u'Model'] Android 5.0 is available right now for the Nexus 7.
+interest_intent 	:	irrelevant 		[u'Place', u'Phone'] I am looking for good shopping stores near Jayanagar to buy a phone.
+irrelevant 	:	irrelevant 		[u'Phone', u'Other'] Smartphones have revolutionized the way people communicate.
+irrelevant 	:	irrelevant 		[u'Org', u'Family', u'Model', u'Phone', u'OS'] ZTE Open II smartphone runs the new Firefox OS!
+irrelevant 	:	price_query 		[u'Price', u'Family', u'Model', u'App'] I paid around 40k and purchased iPhone 5 S just to use Siri! 
+irrelevant 	:	irrelevant 		[u'Family', u'Model', u'Place'] Is Nexus 7 available in India?
+feature_query 	:	irrelevant 		[u'Org', u'Family', u'Model', u'OS', u'Version'] Can I update Samsung Galaxy S4 Mini to run Android Lollipop? 
+comparison 	:	price_query 		[u'OS', u'Version', u'OS', u'Version'] How is Android Lollipop better than Android KitKat?
+irrelevant 	:	irrelevant 		[u'Org', u'OS', u'Version', u'Family'] 4chan tricks people Into thinking iOS 7 makes their iPhones waterproof.
+irrelevant 	:	irrelevant 		[u'Family', u'Model', u'App'] iPhone 4S is merely a "more expensive iPhone" if Siri fails to function as advertised.
+irrelevant 	:	price_query 		[u'Org', u'Family', u'Model', u'Date', u'Price'] Google Nexus 6 planned to be released in early 2015 costs 44k.
+irrelevant 	:	irrelevant 		[u'Other'] Interstellar got mixed reviews from the critics.
+irrelevant 	:	irrelevant 		[u'Family', u'Model', u'Size'] iPhone 6 Plus is around 5.5" which is quite bulky.
+feature_query 	:	irrelevant 		[u'OS'] This app runs only on android smartphones.
+comparison 	:	irrelevant 		[u'Org', u'Model', u'OS', u'Model'] The price of Samsung S4 is comparable to that of iPhone 4.
+irrelevant 	:	irrelevant 		[u'Org', u'Model'] Sony Xperia Z4 is likely to be launched in the next month.
+feature_query 	:	irrelevant 		[u'Family', u'OS', u'Version', u'Place'] I bought my Nexus 6 smartphone which comes with the latest android lollipop from Delhi.
+irrelevant 	:	irrelevant 		[u'App', u'Org'] This app is made by the company Gameloft.
+irrelevant 	:	irrelevant 		[u'OS', u'Version', u'OS', u'Phone', u'OS', u'Version'] iOS 8 is the eighth major release of the iOS mobile operating system designed by Apple Inc. as the successor to iOS 7.
+price_query 	:	irrelevant 		[u'Org', u'Family', u'Model', u'Place'] The best price of Samsung Galaxy Grand 2 in India is Rs. 16009.
+irrelevant 	:	irrelevant 		[u'OS', u'Phone', u'Version', u'Org'] Windows Phone 8.1, codenamed 'Blue', is the latest update to the Microsoft Windows Phone operating system. 
+feature_query 	:	irrelevant 		[u'Family', u'Version', u'Feature'] The new Nexus 6 comes with a long battery life
+feature_query 	:	feature_query 		[u'Feature'] The screen size of this new phone is 6".
+feature_query 	:	irrelevant 		[u'Org', u'Feature', u'Feature'] The new phone launched by micromax supports flash in the front camera
+comparison 	:	irrelevant 		[u'Org', u'Other', u'Phone'] Apple is the leader in Smartphone market
+agreement 	:	irrelevant 		[u'Version', u'Other', u'OS'] Lollipop is the new version Android
+price_query 	:	price_query 		[u'Price', u'Family', u'Model'] What is the price of iphone 6?
+interest_intent 	:	irrelevant 		[u'Other', u'OS', u'Org'] What is the name of the OS released by Mozilla?
+comparison 	:	price_query 		[u'Other', u'Org', u'Phone'] Other than Samsung which is the best smartphone in the market?
+feature_query 	:	price_query 		[u'Feature', u'Other', u'Feature'] Where is the data of a particular app is stored with size greater than 10MB?
+interest_intent 	:	irrelevant 		[u'OS', u'Date', u'Family', u'Model'] When was the new iOS launched that is suitable for iphone 6? 
+interest_intent 	:	price_query 		[u'App', u'Other', u'Org', u'Family'] Other than temple run which is the app that hangs on Samsung note?
+interest_intent 	:	irrelevant 		[u'Place', u'Place'] Wher is the headquarters of Samsung located?
+feature_query 	:	price_query 		[u'App', u'App', u'Feature', u'Feature'] Other than Asphalt which app has size greater than 1GB
+acknowledgement 	:	irrelevant 		[u'Org', u'Place', u'Place'] Apple is located in USA.
+interest_intent 	:	irrelevant 		[u'OS', u'Size', u'Feature'] I dont think Android efficiently uses huge data from the RAM.
+interest_intent 	:	irrelevant 		[u'Family', u'Model', u'Other'] Is iphone 6 is good?
+feature_query 	:	irrelevant 		[u'Family', u'Model', u'Date', u'Feature', u'Size'] When was iphone 6 released with screen size 6?
+interest_intent 	:	irrelevant 		[u'Family', u'Model', u'Family', u'Date'] When was iphone 6 series released?
+feature_query 	:	irrelevant 		[u'Version', u'Date', u'Family'] When was iOS 8 released for iphones?
+feature_query 	:	irrelevant 		[u'App', u'Family', u'Model'] Does Asphalt runs on Moto g?
+irrelevant 	:	irrelevant 		[u'App', u'Date', u'Other'] Which is the app that is now trending?
+price_query 	:	price_query 		[u'Price', u'Family'] What is the price pf iphone6?
+acknowledgement 	:	irrelevant 		[u'Family', u'Org'] Galaxy is the flagship product of Samsung.
+irrelevant 	:	irrelevant 		[u'Phone', u'Date', u'Place'] Smartphones have revolutionized the modern world.
+acknowledgement 	:	irrelevant 		[u'Other', u'App', u'Other'] This new Taala is really helpful.
+acknowledgement 	:	irrelevant 		[u'Other', u'Model', u'Other'] The Lumia 920 is really nice
+irrelevant 	:	price_query 		[u'Price'] I bought this tile on Monday for Rs. 22 in Bangalore.
+irrelevant 	:	irrelevant 		[u'Place'] Bangalore is not that green any more.
+irrelevant 	:	irrelevant 		[u'Date'] Would you go out with me tonight?
+
+Precision :  78  /  150  =  0.52
+reCall
+comparison 	:	0 / 9  =  0.0
+price_query 	:	21 / 23  =  0.913043478261
+acknowledgement 	:	0 / 6  =  0.0
+agreement 	:	0 / 8  =  0.0
+feature_query 	:	5 / 29  =  0.172413793103
+interest_intent 	:	1 / 15  =  0.0666666666667
+irrelevant 	:	51 / 60  =  0.85

@@ -191,7 +191,7 @@ if TRAIN == 1:
 #maxent = MyMaxEnt(datast,fun_obj,reg_lambda = 0.01, pic_file = None)
 #maxent.train()
 result=[]
-for i in datast[1200:1250]:
+for i in datast[1200:1550]:
     result.append((i,maxent.classify(i)))
 
 
