@@ -7,9 +7,11 @@ def get_features(ret):
     	for i in ret:
     		for j in range(len(i)):
 			l1 = []
+			l2 = []
 			l1.append(i['value'])
-			
+			l2.append(i['field'])
 			l.append(l1)
+			l.append(l2)
 		
     	#l = set(l)	
     	x = []
