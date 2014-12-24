@@ -310,8 +310,8 @@ if __name__ == "__main__":
 		prafret = {"tags":zip(result[0],words),"relation":ret}
 		chukkaret = qgen_chukka.getChukkaResult(prafret,pb)
 		retu=json.dumps(chukkaret)
-		#retu = chukkaret	
-		self.wfile.write(retu)
+		retu = {"sentance":pb,"tags":zip(result[0],words),"relation":ret,"chukka":chukkaret}	
+		self.wfile.write(json.dumps(retu))
 
 	#post_body = json.loads(pb)
 	
