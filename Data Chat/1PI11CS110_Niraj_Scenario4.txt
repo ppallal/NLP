@@ -1,0 +1,20 @@
+<salesman> May I help u sir ?? </salesman>
+<customer>Hello sir , I recently saw an advertisement about some discount. Can you tell me more.</customer>
+<salesman>You are at right place sir , we have a good discount on smartphones </salesman>
+<customer>which smartphones are the discount applicable for</customer>
+<salesman>There are lots of them , can you tell me about your interest</salesman>
+<customer>I want simple features like calculator and note pads to make notes</customer>
+<salesman> With discounts, what price would you be willing to pay? </salesman>
+<customer> Not more than 8k </customer>
+<salesman> Is there any brand you have in mind </salesaman>
+<customer> no </customer>
+<salesman> Any OS? </salesman>
+<customer> I do not have any idea about these things</customer>
+<salesman> Would you like a MotoE?It costs only 5 K with discount</salesman>
+<customer> Will i get all simple features. I am a simple person </customer>
+<salesman> If you wish, I can send someone over to give you a demo </salesman>
+<customer> Ok, on a Sunday. I am busy other days. </customer>
+<customer> What about warranty? </customer>
+<salesman> We offer one year on site service </salesman>
+<customer> Okay, I will get back soon </customer>
+<salesman> Thank you for using our service </salesaman>

@@ -42,13 +42,13 @@ if __name__ == "__main__":
     ner = NerClient("1PI11CS116", "g03")
     ret = ner.get_brand_product_bigrams_dict()
     #fn = r"my_file_name_for_uploading"
-    print ner.upload("rer_main.py") # web service for upload
+ #   print ner.upload("rer_main.py") # web service for upload
 #    print ner.upload("rer_feature_functions.py") # web service for upload
 #    print ner.upload("mymaxent.py") # web service for upload
 #    print ner.upload("rer.p") # web service for upload
-    print ner.upload("rules.py") # web service for upload
+ #  print ner.upload("rules.py") # web service for upload
  #   print ner.upload("create_tuples.py") # web service for upload
  #   print ner.upload("analyze.py") # web service for upload
-
-
-    print ret
+    print ner.upload("1PI11CS122_Praveen_Scenario7.txt")
+    print ner.upload("1PI11CS175_Sriram_Scenario3.txt")
+   # print ret

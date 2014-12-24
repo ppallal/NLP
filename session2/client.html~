@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script src="jquery.js"></script>
+		<script>
+			xhr = new XMLHttpRequest()
+			function send()
+			{
+				
+				
+				xhr.onreadystatechange = function()
+					{ 
+						if(xhr.readyState == 4 && xhr.status ==200) 
+							//alert(xhr.responseText);
+							jchat.append("<p style='float:right'>"+xhr.responseText+"</p><br/>")
+					}
+				xhr.open("POST","http://10.1.10.150:9000",true);				
+				xhr.setRequestHeader("Content-type","text/plain");
+				xhr.send(jinput.val());
+				
+			}
+
+			$(document).ready(function(){
+				jinput = $("#enter");
+				jchat = $("#chats")
+				console.log(jinput,jchat);
+				jinput.keyup(function(e){
+					if(e.keyCode == 13){			
+					send();
+					jchat.append("<p>"+jinput.val()+"</p><br/>");
+					//alert("KeyPressed");	
+					}								
+				});
+			});
+		</script>
+	</head>
+	<body >
+		<div id="chats" style="max-height : 90%">
+		</div>
+		<input style="position : fixed; bottom:10px; width:90%" id="enter" type="text" placeholder="Chat Here"/>
+	</body>
+</html>

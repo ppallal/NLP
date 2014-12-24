@@ -1,0 +1,37 @@
+<Salesman>Hello, Thank you for calling our Mobile Store, How may I help you?</Salesman>
+
+<Customer>Hi, I am Jaleel and I'm looking to buy a new Smartphone which is on the business side.</Customer>
+
+<Salesman>Sure Sir, I would suggest you go for a tablet PC.</Salesman>
+
+<Customer>Alright, What are my options?</Customer>
+
+<Salesman>We have the Nexus 10 and the Samsung Galaxy Tab 4.</Salesman>
+
+<Customer>Okay, I'm listening. Could you compare them for me?</Customer>
+
+<Salesman>Both come with Android 4.4.2. One of the major differences would be the pixel density. The Samsung Tab 4 has a 150ppi where as the Nexus 10 has a pixed density of 300ppi.The Tab consists of a Quad core, 1200 MHz, ARM Cortex-A7 where as Nexus 10 has a Dual core, 1700 MHz, ARM Cortex-A15.Coming to the memory, Samsung has a maximum user storage of 12gb and Nexus has a storage of 32gb.</Salesman>
+
+<Customer>Oh! what about the battery life of each?</Customer>
+
+<Salesman>The Samsung has a 6800 mAh battery and the Nexus comes with a 9000 mAh battery.</Salesman>
+
+<Customer>How's the data access and browsing in each of them?</Customer>
+
+<Salesman>The data usage would be the same on both the devices.</Salesman>
+
+<Customer>Okay, What's the price?</Customer>
+
+<Salesman>Samsung Galaxy Tab 4 would cost you Rs. 15000 and the Nexus 10 is Rs. 12000</Salesman>
+
+<Customer>Okay, I'll think about it and get back to you. I would also want to know about the new apple iPhone.</Customer>
+
+<Salesman>Yeah,sure. Which iPhone Version would you like?</Salesman>
+
+<Customer>The latest one please</Customer>
+
+<Salesman>The iPhone 6 would cost you Rs. 50000. It has an iOS8. The interesting features would be finger print scanner, 64bit motherboard and Saphaire glass.</Salesman>
+
+<Customer>I would wish to buy it.</Customer>
+
+<Salesman>Sure sir. I will confirm your purchase. </Salesman>

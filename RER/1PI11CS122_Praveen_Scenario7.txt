@@ -1,0 +1,47 @@
+<Customer>Hey, I'm Raj.</Customer>
+
+<Salesman>Hi Raj, welcome to Flipkart.com. Can I help you with anything?</Salesman>
+
+<Customer>I would like to buy a phone, please.</Customer>
+
+<Salesman>Yes, sir. I would help you with selecting one. Do you have anything in mind?</Salesman>
+
+<Customer>I want a phone within Rs. 10000 budget with Dual Sim.</Customer>
+
+<Salesman>I have the right thing for you. I have these two options for you. Micromax Canvas 2 or the Samsung Galaxy S5. Both have Dual Sim and excellent battery life.</Salesman>
+
+<Customer>Can you give me more options?</Customer>
+
+<Salesman>Certainly Sir. We have Micromax Canvas 2, Samsung Galaxy S5, Nokia Lumia 920, Apple iPhone 4 and Xiomi Redmi 1S which are all available at that price..</Salesman>
+
+<Customer>I am interested in a branded phone.</Customer>
+
+<Salesman>Samsung is very renowned brand. I suggest that you go the for the Samsung Galaxy S5.</Salesman>
+
+<Customer>Can you give me more details about the phone?</Customer>
+
+<Salesman>Certainly Sir. The Samsung Galaxy S5 is an excellent phone that has a 3 year warranty. It comes with A9 Cortex processor chip. It includes a 430dpi display.</Salesman>
+
+<Customer>What OS does it have? Does it support many apps?</Customer>
+
+<Salesman>The Samsung Galaxy S5 runs on Android Lollipop which is the latest OS of Android. There are around 3 million applications in the Android Play Store.</Salesman>
+
+<Customer>I am an online user. How is the networking speeds?</Customer>
+
+<Salesman>The Samsung Galaxy S5 is 4G capable. It comes with several features like noise cancellation to give you crystal voice calls.</Salesman>
+
+<Customer>I am a regular customer at your store. Can I have a discount?</Customer>
+
+<Salesman>Thank you for your loyalty Sir. We have a sale going on giving a discount of 10% on this product.</Salesman>
+
+<Customer>I want to buy.</Customer>
+
+<Salesman>Great! Please add the product to your cart and checkout. We accept all cards.</Salesman>
+
+<Customer>Do you have cash of delivery?</Customer>
+
+<Salesman>Yes, we do provide cash on delivery.</Salesman>
+
+<Customer>Thanks for all the help.</Customer>
+
+<Salesman>Welcome Sir, have a good day.</Salesman>

@@ -1,0 +1,133 @@
+<Salesperson> May i help you sir ??
+</Salesperson>
+<Customer>  Yes, I was looking for phone to buy
+</Customer>
+<Salesperson> Ok , you have come to the right place
+</Salesperson>
+<Salesperson>Do you already have anything in mind ??
+</Salesperson>
+<Customer>  not exactly!, I have just seen the advertaisements of Nokia Lumia.
+</Customer>
+<Customer>Could you suggest me any better phones?
+</Customer>
+<Salesperson> Ok . Nokia Lumia is a great phone
+</Salesperson>
+<Salesperson>It has lots of models also
+</Salesperson>
+<Salesperson>Can i know your budget ??
+</Salesperson>
+<Customer>  don't care about money  </Customer>
+<Customer>consider it a an unrestricted budget
+</Customer>
+<Salesperson> What features are you looking for
+</Salesperson>
+<Salesperson>and what are ur feature priority
+</Salesperson>
+<Salesperson>??
+</Salesperson>
+<Customer>  well, I am a wild life photographer.
+</Customer>
+<Salesperson> Oh thats nice
+</Salesperson>
+<Customer>  so having a good camera will be my first priority.
+</Customer>
+<Salesperson> Ok i will keep that in mind
+</Salesperson>
+<Customer>  also it needs to have a good battery life
+</Customer>
+<Customer>since i roam around in the jungle, a GPS would help me a lot in locating myself.
+</Customer>
+<Customer>other than that nothing much 
+</Customer>
+<Customer>but
+</Customer>
+<Customer>having more and more features is always better
+</Customer>
+<Salesperson> ok considering your requirements i will suggest you some phones
+</Salesperson>
+<Customer>  okay ?
+</Customer>
+<Salesperson> There is Nokia Lumia 1520
+</Salesperson>
+<Salesperson>Google Nexus 6
+</Salesperson>
+<Salesperson>and Samsung Note 4
+</Salesperson>
+<Salesperson>All of them meets your requirement to a great extent ??
+</Salesperson>
+<Customer>  can you compare them for me with respect to my requirements
+</Customer>
+<Salesperson> Sure .
+</Salesperson>
+<Salesperson> Camera wise , Lumia wins here
+</Salesperson>
+<Salesperson>It has a really good 20Mp camera
+</Salesperson>
+<Salesperson>while Nexus has 13Mp and Note 4 sport a 16Mp camera
+</Salesperson>
+<Salesperson>However all of them has HD recording
+</Salesperson>
+<Salesperson> But again the video resolution is better in nexus and note when compared to lumia
+</Salesperson>
+<Customer>  How about the OS? i have heard Lumia sucks compared to Android
+</Customer>
+<Salesperson> ABSOLUTELY NOT ! Its a myth rather than a fact .
+</Salesperson>
+<Salesperson> I myself have a lumia and it can do everything a Android phone do
+</Salesperson>
+<Salesperson>The Windows OS in Lumia is really Userfriendly and the UI is better than Android .
+</Salesperson>
+<Customer>  Oh that is good to know
+</Customer>
+<Customer>But, Could you elaborate on the GPS aspect.
+</Customer>
+<Salesperson> GPS wise all are same .
+</Salesperson>
+<Salesperson> Lumia by default has a HERE map where as other two has Google maps.
+</Salesperson>
+<Salesperson> Considering the fact you won't be getting network always , i suggest to go with lumia here . The HERE maps works really well when you are offline
+</Salesperson>
+<Salesperson>You can Navigate and search without any problem
+</Salesperson>
+<Customer>  that is good.
+</Customer>
+<Customer> do u think i would need to consider any other feature?
+</Customer>
+<Salesperson> Battery life as you mentioned earlier
+</Salesperson>
+<Salesperson>in that case again i suggest Nokia Lumia
+</Salesperson>
+<Salesperson> It has a 3400mAh battery , with 27hrs talktime
+</Salesperson>
+<Salesperson>and 760hrs standby time
+</Salesperson>
+<Salesperson> whisch is better than other two .
+</Salesperson>
+<Salesperson>Sir , are you confused , you are taking time to reply ??
+</Salesperson>
+<Customer>  oh sorry i was just having coffee
+</Customer>
+<Customer>so, Lets come to a conclusion.
+</Customer>
+<Customer>If u were in my place what would u buy?
+</Customer>
+<Salesperson> Ok , no problem'
+</Salesperson>
+<Salesperson>Considering our discussion till now , Its cleary Nokia lumia 1520
+</Salesperson>
+<Customer>  Thank you for your support
+</Customer>
+<Customer>I am obliged.
+</Customer>
+<Customer>Can you book a Nokia Lumia 1520 for me?
+</Customer>
+<Salesperson> Sure
+</Salesperson>
+<Salesperson>I am happy that i could help you .
+</Salesperson>
+<Salesperson>Here is your Lumia .
+</Salesperson>
+<Salesperson>You can pay at the counter .
+</Salesperson>
+<Salesperson>Thank you and have a nice day .
+</Salesperson>
