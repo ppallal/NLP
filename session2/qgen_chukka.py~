@@ -19,7 +19,7 @@ def get_features(ret):
    	#for i in x:	
    	 #	print i	
    	#print ret[:5], len(ret)
-	return x
+	return p
    
     
 def get_prices():

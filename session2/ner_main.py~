@@ -16,6 +16,8 @@ import numpy
 import pickle
 import datetime
 import os
+import qgen_chukka
+
 
 from MyMaxEnt import *
 from memm import *
@@ -297,14 +299,18 @@ if __name__ == "__main__":
 		#prq.prq(ctoken,aip)
 	
     		test_sents=[]
-    		test_sents.append(pb.split(" "))
+		words = pb.split(" ") 
+    		test_sents.append(words)
   	# test_sents = sents[start:end] #sents[-70:-50]
     		result = clf.tag(test_sents)
+		
 		ret = rer_merger.getFull(pb,result[0])
 		self.send_response(200)
 		self.end_headers()
-	
-		retu=json.dumps({"result":result[0],"relation":ret})
+		prafret = {"tags":zip(result[0],words),"relation":ret}
+		chukkaret = qgen_chukka.getChukkaResult(prafret,pb)
+		retu=json.dumps(chukkaret)
+		#retu = chukkaret	
 		self.wfile.write(retu)
 
 	#post_body = json.loads(pb)

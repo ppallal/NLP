@@ -9,7 +9,7 @@ import json
 import os
 
 service_url = "http://jnresearch.com/"
-#service_url = "http://localhost:9999/"
+service_url = "http://localhost:9999/"
 upload_url = service_url + "upload_file"
 prod_bigrams_url = service_url + "get_brand_product_bigrams"
 spec_fields_url = service_url + "get_spec_fields"
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     
     ret = ner.get_brand_product_bigrams_dict()
     #ret = ner.get_spec_fields()
-    #print ret
-   ## fn = r"C:\home\ananth\research\pesit\nlp\client\all_data.p"
-    #ret = ner.upload(fn) # web service for upload
+    print ret
+    fn = r"C:\home\ananth\research\pesit\nlp\client\all_data.p"
+    ret = ner.upload(fn) # web service for upload
     #print ret
