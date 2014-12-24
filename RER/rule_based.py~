@@ -90,7 +90,7 @@ for i in range(0,len(datast)):
 	if(str(datast[i][1]) in posibilities2):
 		#print datast[i][0]
 		#print RuleBased(datast[i][0])
-		#print RuleBased(str(datast[i][0])),"---",datast[i][1]
+		print RuleBased(str(datast[i][0])),"---",datast[i][1]
 		if(RuleBased(str(datast[i][0])) == str(datast[i][1])):
 						
 			posibilities2[str(datast[i][1])]+=1
